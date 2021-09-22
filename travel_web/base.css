@@ -1,0 +1,46 @@
+:root{
+	--white--color:#fff;
+	--black--color:#000;
+	--text--color:#333;
+}
+html{
+	font-size: 62.5%;
+	line-height: 1.6rem; /* 1.6rem = 16px*/
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: inherit;
+}
+/*Text description*/
+.text__h1{
+	
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 100;
+	opacity: 0.7;
+	font-size: 3em;
+	margin-top: 66px;
+}
+.text__h2{
+	text-align: center;
+	opacity: 0.5;
+	margin: 18px;
+	font-size: 2rem;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.text__under{
+	width: 80px;
+	height: 4px;
+	background-color: #f1f1f1;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 712px;
+	
+}
+
+
+
+

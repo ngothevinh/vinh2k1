@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Travel</title>
+	<link rel="stylesheet"  href="travel.css">
+	<link rel="stylesheet"  href="grid.css">	
+	<link rel="stylesheet"  href="base.css">
+
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div class="app">
+    	<div class="header">
+    		<div class="grid grid__header">
+    			<div class="grid wide">
+    				<nav class="header__nav">
+    				<ul class="header__nav-list">
+    					<li class="header__nav-list--item">
+    					    <a href="#"><i class=" header__nav-icon fas fa-money-check-alt"></i>
+    						Payment Options
+    						</a>
+    					</li>
+    					<li class="header__nav-list--item">
+    					     <a href="#"><i class=" header__nav-icon far fa-check-square"></i>
+    						Terms Conditions
+    						</a>
+    					</li>
+    					<li class="header__nav-list--item">
+    					   <a href="#">US</a>
+    					</li>
+    					<li class="header__nav-list--item">
+    					     <a href="#">IT</a>
+    					</li>
+    					<li class="header__nav-list--item">
+    					   <a href="#">ES</a>
+    					</li>
+    				</ul>
+    				<ul class="header__nav-list ">
+    					<li class="header__nav-list--item">
+    					    <a href="#">My Bookings</a>
+    					</li>
+    					<li class="header__nav-list--item header__nav-list--has--cart">
+    					    <i class="far fa-envelope header__nav-letter"></i>
+    					    <div class="header__nav-letter--number">3</div>
+
+    					    <div class="header__cart">
+    					        <div class="header__cart-control"></div>
+    					    	<div class="header__cart-list">
+    					    		<div class="header__cart-img">
+										<img src="./img/package-newdelhi.jpg" alt="" class="header__cart-img-all">
+    					    	    </div>
+    					    	    <div class="header__cart-description">
+    					    		    <a href="" class="header__cart-description--item1">Best Travel Plugin</a><br>
+    					    		    <a href="" class="header__cart-description--item2"><p>CHECK FEATURES</p></a>
+    					    	    </div>
+    					    	</div>
+    					    	<div class="header__cart-list">
+    					    		<div class="header__cart-img">
+										<img src="./img/package-london.jpg" alt="" class="header__cart-img-all">
+    					    	    </div>
+    					    	    <div class="header__cart-description">
+    					    		    <a href="" class="header__cart-description--item1">Multi Purpose</a><br>
+    					    		    <a href="" class="header__cart-description--item2"><p>A LOT OF DEMOS</p></a>
+    					    	    </div>
+    					    	</div>
+    					    	<div class="header__cart-list">
+    					    		<div class="header__cart-img">
+										<img src="./img/package-rome.jpg" alt="" class="header__cart-img-all">
+    					    	    </div>
+    					    	    <div class="header__cart-description">
+    					    		    <a href="" class="header__cart-description--item1">No Code Required</a><br>
+    					    		    <a href="" class="header__cart-description--item2"><p>VERY EASY TO USE</p></a>
+    					    	    </div>
+    					    	</div>
+    					    </div>
+    					</li>
+
+    					<li class="header__nav-list--item">
+    					   <a href="#">Add Your Review</a>
+    					</li>
+    					<li class="header__nav-list--item header__nav-user ">
+    					    <a href="" class="header__nav-user--btn">
+    					    	 <img src="https://pdp.edu.vn/wp-content/uploads/2021/05/hinh-anh-avatar-de-thuong.jpg" class="header__nav-user-img">
+    					         <span class="header__nav-user-name">
+    					         My Account <br>
+    					         Login
+    					         </span>
+    					         
+    					    </a>
+    					   
+    					</li>
+    					
+    				</ul>
+    			</nav>
+    			</div>
+    		</div>
+    		<div class="grid">
+    			<div class="grid wide">
+    				<div class="header__search">   				
+    				    <ul class="header__search-list">
+    				        <li class="header__search-list--item">
+    				    	    <a href="#" class="header__search-icon"><img class="header__search-img" alt=""  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/wp-content/uploads/sites/2/2018/03/logo.png">
+    				            </a>
+    				        </li>
+    					    <li class="header__search-list--item header__search-list--item-separate">
+    						    <a href="" class="header__search-list--text">HOME</a>
+    					    </li>
+    					    <li class="header__search-list--item header__search-list--item-separate header__search-list--has-package">
+    						    <a href="" class="header__search-list--text ">PACKAGES</a>
+    						    <ul class="sub__menu-package">
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Search</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Single Package</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Destination</p></a>
+    							    </li>
+    						    </ul>
+    					    </li>
+    					    <li class="header__search-list--item header__search-list--item-separate header__search-list--has-shop">
+    						    <a href="" class="header__search-list--text">SHOP</a>
+    						    <ul class="sub__menu-shop">
+    							    <li class="sub__menu-list">
+    							     	<a href="" class="sub__menu-item"><p>Shop</p></a>
+    						    	</li>
+    						    	<li class="sub__menu-list">
+    							    	<a href="" class="sub__menu-item"><p>Cart</p></a>
+    						    	</li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Check out</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>My Account</p></a>
+    							    </li>
+    						    </ul>
+    					    </li>
+    					    <li class="header__search-list--item header__search-list--item-separate">
+    						    <a href="" class="header__search-list--text">ABOUT US</a>
+    					    </li>
+    					    <li class="header__search-list--item header__search-list--item-separate header__search-list--has-page">
+    						    <a href="" class="header__search-list--text">PAGES</a>
+    						    <ul class="sub__menu-page">
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Best Destinations</p> </a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Staff</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Services</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    								    <a href="" class="sub__menu-item"><p>Prices</p></a>
+    							    </li>
+    							    <li class="sub__menu-list">
+    							 	    <a href="" class="sub__menu-item"><p>Faq</p></a>
+    							    </li>
+    							    <li class="sub__menu-list sub__menu-list--has--separate">
+    								    <a href="" class="sub__menu-item">
+    									    <p>
+    										    Contact
+    										    <i class=" icon fas fa-caret-right"></i>
+    									    </p>
+    								    </a>
+    								
+    							    <ul class="sub__menu-contact--separate">
+    									<li class="sub__menu-separate--list">
+    										<a href="" class="sub__menu-separate--item"><p>Contact 1</p></a>
+    									</li>
+    									<li class="sub__menu-separate--list">
+    										<a href="" class="sub__menu-separate--item"><p>Contact 2</p></a>
+    									</li>
+    								</ul>
+    								<li class="sub__menu-list">
+    							 	    <a href="" class="sub__menu-item"><p>Coming soon</p></a>
+    							    </li>
+
+    							</li>
+    							
+    						</ul>
+    					</li>
+    					<li class="header__search-list--item header__search-list--item-separate header__search-list--has-new">
+    						<a href="" class="header__search-list--text">NEWS</a>
+    						<ul class="sub__menu-new">
+    							<li class="sub__menu-list">
+    								<a href="" class="sub__menu-item"><p>Archive</p></a>
+    							</li>
+    							<li class="sub__menu-list sub__menu-list--has--new">
+    								<a href="" class="sub__menu-item">
+    									<p>
+    										Single Post
+    										<i class=" icon fas fa-caret-right"></i>
+    									</p>
+    								</a>
+    								<ul class="sub__menu-new--separate">
+    									<li class="sub__menu-new--list">
+    										<a href="" class="sub__menu-new--list--item"><p> Full Width</p></a>
+    									</li>
+    									<li class="sub__menu-new--list">
+    										<a href="" class="sub__menu-new--list--item"><p>Right Silbar</p></a>
+    									</li>
+    									<li class="sub__menu-new--list">
+    										<a href="" class="sub__menu-new--list--item"><p>Left Silbar</p></a>
+    									</li>
+    								</ul>
+
+    							</li>
+    							
+    						</ul>
+    					</li>
+    					<li class="header__search-list--item header__search-list--item-separate header__search-list--has-contact">
+    						<a href="" class="header__search-list--text">CONTACT</a>
+    						<ul class="sub__menu-contact">
+    							<li class="sub__menu-list">
+    								<a href="" class="sub__menu-item"><p>Contact 1</p></a>
+    							</li>
+    							<li class="sub__menu-list">
+    								<a href="" class="sub__menu-item"><p>Contact 2</p></a>
+    							</li>
+    							
+    						</ul>
+    					</li>
+    					<li class="header__search-list--item ">
+    						<a href="" class="header__search-list--text header__search-list--item-btn">BOOK NOW</a>
+    					</li>
+    				    </ul>						
+    			    </div>
+    			    <label for="nav__input" class="header__search-bars">
+    					<i class=" header__search-bars--icon fas fa-bars"></i>
+    				</label>
+    			</div>
+    		</div>  		
+    	</div>
+    	<input type="checkbox" hidden id="nav__input" class="check">
+    	<div class="header__mobile">
+    		            <label for="nav__input">
+    		            	<i class=" icon1 far fa-times-circle"></i>
+    		            </label>
+    					<ul class="header__mobile-list">
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">HOME</a>
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">
+    							PACKAGES
+    							</a>
+    							<ul class="header__mobile-list">
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Search</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Single Package</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Destination</a>
+    								</li>
+    							</ul>						    
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">
+    							SHOP
+    							</a>
+    							<ul class="header__mobile-list">
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Shop</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Cart</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Account</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">My Account</a>
+    								</li>
+    							</ul> 
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">ABOUT US</a>
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">
+    							PAGES
+    							</a>
+    							<ul class="header__mobile-list">
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Best Destination</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Staff</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Services</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Prices</a>
+    								</li>
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">
+    										Contact
+    										<ul class="header__mobile-list">
+    											<li class="header__mobile-list--item">
+    												<a href="" class="header__mobile-link">Contact1</a>
+    											</li>
+    											<li class="header__mobile-list--item">
+    												<a href="" class="header__mobile-link">Contact2</a>
+    											</li>
+    										</ul>
+    									</a>
+    								</li>
+    								<li class="header__mobile-link--item">
+    									<a href="" class="header__mobile-link">Coming soon</a>
+    								</li>
+    							</ul> 
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">
+    							NEWS
+    							</a>
+    							<ul class="header__mobile-list">
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Archive</a>
+    								</li>
+    								<li class="header__mobile-link--item">
+    									<a href="" class="header__mobile-link">
+    										Single post
+    										<ul class="header__mobile-list">
+    											<li class="header__mobile-list--item">
+    												<a href="" class="header__mobile-link">Full width</a>
+    											</li>
+    											<li class="header__mobile-list--item">
+    												<a href="" class="header__mobile-link">Right sidebar</a>
+    											</li>
+    											<li class="header__mobile-list--item">
+    												<a href="" class="header__mobile-link">Left sidebar</a>
+    											</li>
+    										</ul>
+    									</a>
+    								</li>
+    								
+    							</ul> 
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">
+    							CONTACT
+    							</a>
+    							<ul class="header__mobile-list">
+    								<li class="header__mobile-list--item">
+    									<a href="" class="header__mobile-link">Contact1</a>
+    								</li>
+    								<li class="header__mobile-link--item">
+    									<a href="" class="header__mobile-link">Contact2</a>
+    								</li>
+    							</ul> 
+    						</li>
+    						<li class="header__mobile-list--item">
+    							<a href="" class="header__mobile-link">BOOK NOW</a>
+    						</li>
+    					</ul>
+    				</div>
+    	<div class="container">
+    		<div class="nav__container">
+    		    <img src="./img/parallax-2.jpg" class="nav__img">
+
+    		   <!-- Symbols -->
+    		    <div class="nav__container-symbols">
+    		    	<p class="nav__container-symbols--buy">BUY NOW</p>
+    		    </div>
+    		    <div class="nav__container-symbols1">
+    		    	<a href="" class="nav__container-symbols1--number">54 <span>$</span></a>
+    		    </div>
+    		    <div class="nav__container-symbols2">
+    		    	<a href="" class="nav__container-symbols2--item">
+    		    		<i class=" nav__container-symbols2--icon fas fa-fire"></i>
+    		    	</a>
+    		    </div>
+    		     <!-- End Symbols -->	  
+    		    <div class="nav__container-over">
+    		    	<div class="nav__container-over--search">
+    		    		<i class=" nav__container-icon fas fa-search"></i>
+    		    		QUICK SEARCH
+    		    	</div>
+    		    	<div class="nav__container-over--advanced">
+    		    		<a href=""><i class="nav__container-icon fas fa-users"></i>
+    		    		ADVANCED
+    		    		</a>
+    		    	</div>
+    		    </div>
+    		    <div class="nav__container-find">    		    
+    		    	<div class="nav__container-find__under">
+    		    		<div class="nav__container-infor">
+    		    			<input type="text" placeholder="Insert keyword" class="nav__container-input">
+    		    		</div>
+    		    		<div class="nav__container-infor">
+    		    			<select class="nav__container-input--select">
+    		    				<option value="0">All Destinations</option>
+    		    				<option value="1">England</option>
+    		    				<option value="2">France</option>
+    		    				<option value="3">Begium</option>
+    		    				<option value="4">Scotland</option>
+    		    				<option value="5">Spain</option>
+    		    				<option value="6">Italia</option>
+    		    				<option value="7">Pobland</option>  		    				
+    		    			</select>
+    		    		</div>
+    		    		<div class="nav__container-infor">
+    		    			<select class=" nav__container-input--select" >
+    		    				<option value="0">All Typologies</option>
+    		    				<option value="1">Relax</option>
+    		    				<option value="2">Chill</option>
+    		    				<option value="3">History</option>
+    		    				<option value="4">Sport</option>
+    		    				<option value="5">Culture</option>
+    		    					    				
+    		    			</select>
+    		    		</div>
+    		    		<div class="nav__container-infor">
+    		    			<input type="submit" class="nav__container-input--btn" value="SEARCH">
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="nav__container-schedule">
+    		    	<h1 class="text__h1">TOP PROMOTIONS</h1>
+    		    	<h2 class="text__h2">BEST TRAVEL PACKAGES AVAILABLE</h2>
+    		    	<span class="text__under"></span>
+    		    	<div class="grid wide">
+    		    		<div class="row">
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">700 $</a>
+    		    					    <img src="./img/package-berlin.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">Berlin</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1"><p>Europe</p></a>
+    		    						    <a href="" class="item3__text2"><p>Cultural</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn ">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">500 $</a>
+    		    					    <img src="./img/package-newdelhi.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">New Delhi</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1 color1"><p>Asia</p></a>
+    		    						    <a href="" class="item3__text2 color2"><p>History</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">400 $</a>
+    		    					    <img src="./img/package-london.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">London</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1 color3"><p>England</p></a>
+    		    						    <a href="" class="item3__text2 color4"><p>Sport</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">1200 $</a>
+    		    					    <img src="./img/package-cuba.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">Cuba</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1 color5"><p>America</p></a>
+    		    						    <a href="" class="item3__text2 color6"><p>Relax</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">1500 $</a>
+    		    					    <img src="./img/package-rome.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">Rome</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1 color7"><p>Italia</p></a>
+    		    						    <a href="" class="item3__text2 color8"><p>History</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    			<div class="col l-4">
+    		    				<div class="item">
+    		    					<div class="item1">
+    		    				        <a href="" class="item1__price">730 $</a>
+    		    					    <img src="./img/package-dubai.jpg" class="item1__img">    		    		   
+    		    				    </div>
+    		    				    <div class="item2">
+    		    				        <a href="" class="item2__country">Dubai</a>   		    		   
+    		    				    </div>
+    		    				    <div class="item3">
+    		    					    <div class="item3__text">
+    		    						    <a href="" class="item3__text1 color9"><p>Asia</p></a>
+    		    						    <a href="" class="item3__text2 color10"><p>Spory</p></a>
+    		    					    </div>
+    		    				    </div>
+    		    				    <div class="item4">
+    		    					    <div class="item4__description">
+    		    						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						   
+    		    					    </div>
+    		    					   <div class="item4__btn">
+    		    					   	<a href="" class="item4__btn-click">DETAILS</a>
+    		    					   </div>
+    		    				    </div>      
+    		    				</div>				    		
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="nav__choose">
+    		    	<div class="nav__choose-item1">
+    		    		<a href="" class="nav__choose-item1--btn">ALL PACKAGES</a>
+    		    	</div>
+    		    	<div class="nav__choose-item2">
+    		    		<a href="" class="nav__choose-item2--btn">PROMOTIONS</a>
+    		    	</div>
+    		    </div>  	
+    		    <div class="nav__vacation">
+    		        <img src="./img/parallax-1.jpg" class="nav__vacation-img">  		        
+    		        <div class="nav__vacation-column">
+    		        	<div class="nav__vacation-column-text1">SUMMER PROMOTION</div>
+    		        	<div class="nav__vacation-column-text2">SANTORINI - GREEK ISLAND TOUR</div>
+    		        	<div class="nav__vacation-column-text3">1000 $ for person - 6 nights</div>
+    		        	<div class="nav__vacation-column-text4">
+    		        		<a href="" class="nav__vacation-column--btn">
+    		        				MORE DETAIL
+    		        		</a>
+    		        	</div>
+    		        </div>
+    		    </div>	  
+    		    <div class="nav__destination">
+    		    	<div class="text__h1">OUR DESTINATIONS</div>
+    		    	<div class="text__h2">CHOOSE YOUR NEXT DESTINATION</div>
+    		    	<div class="text__under"></div>
+    		    	<div class="grid wide">
+    		    		<div class="row">
+    		    			<div class="col l-3">
+    		    				<div class="nav__destination-list">
+    		    				    <div class="nav__destination-list--item">
+    		    				        <a href="" class="nav__destination-list--link">OCEANIA</a>
+    		    				        <img src="./img/destination-10.jpg" class="nav__destination-list--img">
+    		    				    	
+    		    				    </div>			
+    		    				</div>
+    		    			</div>
+    		    			<div class="col l-3">
+    		    				<div class="nav__destination-list">
+    		    				    <div class="nav__destination-list--item">
+    		    				        <a href="" class="nav__destination-list--link">AFRICA</a>
+    		    				        <img src="./img/destination-6.jpg" class="nav__destination-list--img">
+    		    				    	
+    		    				    </div>			
+    		    				</div>
+    		    			</div>
+    		    			<div class="col l-3">
+    		    				<div class="nav__destination-list">
+    		    				    <div class="nav__destination-list--item">
+    		    				        <a href="" class="nav__destination-list--link">AMERICA</a>
+    		    				        <img src="./img/destination-20.jpg" class="nav__destination-list--img">
+    		    				    	
+    		    				    </div>			
+    		    				</div>
+    		    			</div>
+    		    			<div class="col l-3">
+    		    				<div class="nav__destination-list">
+    		    				    <div class="nav__destination-list--item">
+    		    				        <a href="" class="nav__destination-list--link">ASIA</a>
+    		    				        <img src="./img/destination-7.jpg" class="nav__destination-list--img">
+    		    				    	
+    		    				    </div>			
+    		    				</div>
+    		    			</div>
+
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		    <div class="nav__information">  		        
+    		        <div class="grid">
+    		        	<div class="row nav__information-img" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/travel/wp-content/uploads/sites/2/2018/04/parallax-3.jpg);">
+    		        		<div class="col l-3">
+    		        			<div class="nav__information-list">
+    		        				<div class="nav__information-list--number">75</div>
+    		        				<div class="nav__information-list--item">
+    		        					<a href="" class="nav__information-list--btn">DESTINATIONS</a>
+    		        				</div>
+    		        			</div>
+    		        		</div>
+    		        		<div class="col l-3">
+    		        			<div class="nav__information-list">
+    		        				<div class="nav__information-list--number">149</div>
+    		        				<div class="nav__information-list--item">
+    		        					<a href="" class="nav__information-list--btn nav__information-btn--separate1">TOUR PACK</a>
+    		        				</div>
+    		        			</div>
+    		        		</div>
+    		        		<div class="col l-3">
+    		        			<div class="nav__information-list">
+    		        				<div class="nav__information-list--number">32</div>
+    		        				<div class="nav__information-list--item">
+    		        					<a href="" class="nav__information-list--btn nav__information-btn--separate2">CRUISE</a>
+    		        				</div>
+    		        			</div>
+    		        		</div>
+    		        		<div class="col l-3">
+    		        			<div class="nav__information-list">
+    		        				<div class="nav__information-list--number">24</div>
+    		        				<div class="nav__information-list--item">
+    		        					<a href="" class="nav__information-list--btn nav__information-btn--separate3">HOURS SUPPORT</a>
+    		        				</div>
+    		        			</div>
+    		        		</div>
+    		        	</div>
+    		        </div>
+    		    </div>  
+    		    <div class="nav__best-travel">
+    		    	<div class="text__h1">PACKAGES</div>
+    		    	<div class="text__h2">BEST TRAVEL PACKAGES</div>
+    		    	<div class="text__under"></div>
+    		    	<div class="grid wide">
+    		    		<div class="row">
+    		    			<div class="col l-3">
+    		    				<div class="nav__best-travel-form">
+    		    					<div class="nav__best-travel--header">
+    		    						<div class="nav__best-travel--request">REQUEST</div>
+    		    					    <div class="nav__best-travel--contact">
+    		    						    <i class="fas fa-phone nav__best-travel--icon"></i>
+    		    						    <a href="" class="nav__best-travel--form--btn">CONTACT</a>
+    		    					    </div>
+    		    					</div>
+    		    					<div class="nav__best-travel--input">
+    		    						<input type="text" placeholder="   Name" class="input__text"><br>
+    		    						<input type="text" placeholder="   Email" class="input__text"><br>
+    		    						<input type="text" placeholder="   Guest" class="input__text">
+    		    						<select class="input__text input__text--select">
+    		    							<option value="0">Select Destination</option>
+    		    							<option value="1">London</option>
+    		    							<option value="2">Rome</option>
+    		    							<option value="3">New Delhi</option>
+    		    							<option value="4">Dubai</option>
+    		    						</select>
+    		    						<textarea placeholder="   Message" class="input__text--area"></textarea>
+    		    						<button class="input__text--btn">SEND NOW</button>
+    		    					</div>
+    		    				</div>
+    		    			</div>
+    		    			<div class="col l-9 ">
+    		    				<div class="nav__best-travel-list">
+    		    					<img src=" ./img/package-rome.jpg" class="nav__best-travel-list--img">
+    		    					<div class="nav__best-travel-list--description">
+    		    						<div class="nav__best-travel-list--item1">
+    		    							<a href="" class="nav__best-travel-list--item1--link">Rome</a>
+    		    						</div>
+    		    						<div class="nav__best-travel-list--item1--text">
+    		    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						</div>
+    		    					</div>
+    		    					<div class="nav__best-travel-list--btn">
+    		    						<div class="nav__best-travel-list--btn--number">1500<span>$</span></div>
+    		    						<div class="nav__best-travel-list--btn--click">
+    		    							<a href="" class="nav__best-travel-list--btn--details">DETAILS</a>
+    		    						</div>
+    		    				    </div>
+    		    				</div>	 
+    		    				<div class="nav__best-travel-list">
+    		    					<img src= " ./img/package-london.jpg" class="nav__best-travel-list--img">
+    		    					<div class="nav__best-travel-list--description">
+    		    						<div class="nav__best-travel-list--item1">
+    		    							<a href="" class="nav__best-travel-list--item1--link">London</a>
+    		    						</div>
+    		    						<div class="nav__best-travel-list--item1--text">
+    		    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						</div>
+    		    					</div>
+    		    					<div class="nav__best-travel-list--btn nav__best-travel-list--btn--separate1">
+    		    						<div class="nav__best-travel-list--btn--number">400<span>$</span></div>
+    		    						<div class="nav__best-travel-list--btn--click">
+    		    							<a href="" class="nav__best-travel-list--btn--details nav__best-travel-list--btn--separate1">DETAILS</a>
+    		    						</div>
+    		    				    </div>
+    		    				</div>
+    		    				<div class="nav__best-travel-list">
+    		    					<img src="./img/package-berlin.jpg" class="nav__best-travel-list--img">
+    		    					<div class="nav__best-travel-list--description">
+    		    						<div class="nav__best-travel-list--item1">
+    		    							<a href="" class="nav__best-travel-list--item1--link">Berlin</a>
+    		    						</div>
+    		    						<div class="nav__best-travel-list--item1--text">
+    		    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+    		    						</div>
+    		    					</div>
+    		    					<div class="nav__best-travel-list--btn nav__best-travel-list--btn--separate2">
+    		    						<div class="nav__best-travel-list--btn--number">700<span>$</span></div>
+    		    						<div class="nav__best-travel-list--btn--click">
+    		    							<a href="" class="nav__best-travel-list--btn--details nav__best-travel-list--btn--separate2">DETAILS</a>
+    		    						</div>
+    		    				    </div>
+    		    				</div>
+    		    							
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+    		</div>
+    	</div>
+    	<div class="footer">
+    		<div class="grid grid1">
+    			<div class="grid wide ">
+    				<div class="row">
+    					<div class="col l-4">
+    						<div class="footer__support">
+    							<div class="footer__number">Phone Support</div>
+    							<div class="footer__time">24 HOURS A DAY</div>
+    							<div class="footer__support-telephone">+ 01 345 675 123</div>
+    						</div>
+    					</div>
+    					<div class="col l-4">
+    					    <div class="footer__contact">
+    							<div class="footer__number">Connect With Us</div>
+    							<div class="footer__time">SOCIAL MEDIA CHANNELS</div>
+    							<div class="footer__contact-social">
+    								<i class="footer__contact-social--icon fab fa-instagram"></i>
+    								<i class="footer__contact-social--icon fab fa-twitter"></i>
+    								<i class="footer__contact-social--icon fab fa-facebook-f"></i>
+    								<i class="footer__contact-social--icon fab fa-tiktok"></i>
+    								<i class="footer__contact-social--icon fab fa-youtube"></i>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="col l-4">
+    					    <div class="footer__input">
+    							<div class="footer__number">Newsletter</div>
+    							<div class="footer__time">SIGN UP FOR SPECIAL OFFERS</div>
+    							<div class="footer__contact-input">
+    								<input type="Email" placeholder="   Email" class="footer__contact-input--email">
+    								<button class="footer__contact-input--btn">SIGN IN</button>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="column">
+    		<div class="grid">
+    			<div class="grid wide">
+    				<div class="row row1">
+    					<div class="col l-4">
+    						<div class="column__text1"><p>Made by vinhngo2001@gmail.com</p></div>
+    					</div>
+    					<div class="col l-4 l-o-4 ">
+    						<div class="column__text2"><p>Best travel wordpress  and you will have a tour perfect</p></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+</body>
+</html>
+	
